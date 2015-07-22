@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7706" systemVersion="14D136" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="USS-Uf-lZM">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="xL0-Mv-qNP">
+            <objects>
+                <viewController id="USS-Uf-lZM" customClass="ViewController" customModule="DistanceCalculator" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="QeE-0j-kfd"/>
+                        <viewControllerLayoutGuide type="bottom" id="Eve-gH-kRj"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="alB-Dx-N5R">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Miles:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9A9-Vk-fkK">
+                                <rect key="frame" x="16" y="36" width="46" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SIQ-MK-IKV">
+                                <rect key="frame" x="16" y="70" width="37" height="30"/>
+                                <state key="normal" title="Clear">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="ClearBtnClick:" destination="USS-Uf-lZM" eventType="touchUpInside" id="doh-Ia-0rh"/>
+                                </connections>
+                            </button>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Please enter distance in miles" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="WAL-4A-qTS">
+                                <rect key="frame" x="70" y="32" width="514" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" keyboardType="decimalPad"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="right" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AML-cn-yx1">
+                                <rect key="frame" x="484" y="70" width="100" height="30"/>
+                                <state key="normal" title="Convert to Km">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="ConvertBtnClick:" destination="USS-Uf-lZM" eventType="touchUpInside" id="gc9-ek-6FV"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="haq-Qn-JhA">
+                                <rect key="frame" x="16" y="108" width="568" height="17"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="17" id="jPw-lU-nRH"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="9A9-Vk-fkK" firstAttribute="leading" secondItem="alB-Dx-N5R" secondAttribute="leadingMargin" id="7gM-Tc-iaI"/>
+                            <constraint firstItem="WAL-4A-qTS" firstAttribute="trailing" secondItem="AML-cn-yx1" secondAttribute="trailing" id="9ku-6g-jc4"/>
+                            <constraint firstItem="AML-cn-yx1" firstAttribute="top" secondItem="WAL-4A-qTS" secondAttribute="bottom" constant="8" id="FRl-KE-y5w"/>
+                            <constraint firstItem="WAL-4A-qTS" firstAttribute="top" secondItem="QeE-0j-kfd" secondAttribute="bottom" constant="12" id="Fga-jm-1Ev"/>
+                            <constraint firstItem="WAL-4A-qTS" firstAttribute="trailing" secondItem="alB-Dx-N5R" secondAttribute="trailingMargin" id="Gye-8I-9Y7"/>
+                            <constraint firstItem="WAL-4A-qTS" firstAttribute="leading" secondItem="9A9-Vk-fkK" secondAttribute="trailing" constant="8" id="Qm8-93-JLV"/>
+                            <constraint firstItem="SIQ-MK-IKV" firstAttribute="leading" secondItem="haq-Qn-JhA" secondAttribute="leading" id="U9r-EB-3yQ"/>
+                            <constraint firstItem="SIQ-MK-IKV" firstAttribute="leading" secondItem="9A9-Vk-fkK" secondAttribute="leading" id="W01-Qd-XY0"/>
+                            <constraint firstItem="AML-cn-yx1" firstAttribute="trailing" secondItem="haq-Qn-JhA" secondAttribute="trailing" id="XPZ-Ld-wKd"/>
+                            <constraint firstItem="9A9-Vk-fkK" firstAttribute="centerY" secondItem="WAL-4A-qTS" secondAttribute="centerY" constant="-0.5" id="b0p-xz-4xT"/>
+                            <constraint firstItem="haq-Qn-JhA" firstAttribute="top" secondItem="AML-cn-yx1" secondAttribute="bottom" constant="8" id="cy8-sw-On5"/>
+                            <constraint firstItem="SIQ-MK-IKV" firstAttribute="baseline" secondItem="AML-cn-yx1" secondAttribute="baseline" id="odg-06-I91"/>
+                        </constraints>
+                    </view>
+                    <simulatedOrientationMetrics key="simulatedOrientationMetrics"/>
+                    <connections>
+                        <outlet property="clearButton" destination="SIQ-MK-IKV" id="1Kw-8U-MN2"/>
+                        <outlet property="convertButton" destination="AML-cn-yx1" id="YeD-1b-9c9"/>
+                        <outlet property="inputTextField" destination="WAL-4A-qTS" id="FRu-UH-GEM"/>
+                        <outlet property="resultLabel" destination="haq-Qn-JhA" id="XQp-fw-uaO"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Xe3-CE-o5i" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="256" y="473"/>
+        </scene>
+    </scenes>
+</document>

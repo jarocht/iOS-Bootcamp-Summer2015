@@ -1,0 +1,255 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		33D396F91B5544CA005A5CB3 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33D396F81B5544CA005A5CB3 /* main.swift */; };
+		33D397001B554593005A5CB3 /* Rocket.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33D396FF1B554593005A5CB3 /* Rocket.swift */; };
+		33D397021B554E68005A5CB3 /* MannedRocket.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33D397011B554E68005A5CB3 /* MannedRocket.swift */; };
+		33D397041B555287005A5CB3 /* BestRocket.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33D397031B555287005A5CB3 /* BestRocket.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		33D396F31B5544CA005A5CB3 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		33D396F51B5544CA005A5CB3 /* RocketShipDemo */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = RocketShipDemo; sourceTree = BUILT_PRODUCTS_DIR; };
+		33D396F81B5544CA005A5CB3 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		33D396FF1B554593005A5CB3 /* Rocket.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Rocket.swift; sourceTree = "<group>"; };
+		33D397011B554E68005A5CB3 /* MannedRocket.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MannedRocket.swift; sourceTree = "<group>"; };
+		33D397031B555287005A5CB3 /* BestRocket.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BestRocket.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		33D396F21B5544CA005A5CB3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		33D396EC1B5544C9005A5CB3 = {
+			isa = PBXGroup;
+			children = (
+				33D396F71B5544CA005A5CB3 /* RocketShipDemo */,
+				33D396F61B5544CA005A5CB3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		33D396F61B5544CA005A5CB3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				33D396F51B5544CA005A5CB3 /* RocketShipDemo */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		33D396F71B5544CA005A5CB3 /* RocketShipDemo */ = {
+			isa = PBXGroup;
+			children = (
+				33D396F81B5544CA005A5CB3 /* main.swift */,
+				33D396FF1B554593005A5CB3 /* Rocket.swift */,
+				33D397011B554E68005A5CB3 /* MannedRocket.swift */,
+				33D397031B555287005A5CB3 /* BestRocket.swift */,
+			);
+			path = RocketShipDemo;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		33D396F41B5544CA005A5CB3 /* RocketShipDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 33D396FC1B5544CA005A5CB3 /* Build configuration list for PBXNativeTarget "RocketShipDemo" */;
+			buildPhases = (
+				33D396F11B5544CA005A5CB3 /* Sources */,
+				33D396F21B5544CA005A5CB3 /* Frameworks */,
+				33D396F31B5544CA005A5CB3 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RocketShipDemo;
+			productName = RocketShipDemo;
+			productReference = 33D396F51B5544CA005A5CB3 /* RocketShipDemo */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		33D396ED1B5544C9005A5CB3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = gvsu.edu;
+				TargetAttributes = {
+					33D396F41B5544CA005A5CB3 = {
+						CreatedOnToolsVersion = 6.3.2;
+					};
+				};
+			};
+			buildConfigurationList = 33D396F01B5544C9005A5CB3 /* Build configuration list for PBXProject "RocketShipDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 33D396EC1B5544C9005A5CB3;
+			productRefGroup = 33D396F61B5544CA005A5CB3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				33D396F41B5544CA005A5CB3 /* RocketShipDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		33D396F11B5544CA005A5CB3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33D396F91B5544CA005A5CB3 /* main.swift in Sources */,
+				33D397041B555287005A5CB3 /* BestRocket.swift in Sources */,
+				33D397021B554E68005A5CB3 /* MannedRocket.swift in Sources */,
+				33D397001B554593005A5CB3 /* Rocket.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		33D396FA1B5544CA005A5CB3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		33D396FB1B5544CA005A5CB3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		33D396FD1B5544CA005A5CB3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		33D396FE1B5544CA005A5CB3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		33D396F01B5544C9005A5CB3 /* Build configuration list for PBXProject "RocketShipDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				33D396FA1B5544CA005A5CB3 /* Debug */,
+				33D396FB1B5544CA005A5CB3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		33D396FC1B5544CA005A5CB3 /* Build configuration list for PBXNativeTarget "RocketShipDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				33D396FD1B5544CA005A5CB3 /* Debug */,
+				33D396FE1B5544CA005A5CB3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 33D396ED1B5544C9005A5CB3 /* Project object */;
+}
